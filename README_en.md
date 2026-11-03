@@ -1,6 +1,6 @@
 # My Skill Hub
 
-[简体中文](README.md) · [GitHub Profile](https://github.com/caseclose)
+[简体中文](README.md)
 
 A collection of open-source agent skills I created, covering browser and macOS automation, local data dashboards, and GPU utilities.
 
@@ -39,5 +39,3 @@ Run a controlled workload on selected NVIDIA GPUs, with multi-GPU support, targe
 ## About this hub
 
 This repository collects skill descriptions and source repository links. Implementations and releases are maintained in each skill's public repository. To add a skill, add its description and public repository link here.
-
-[Back to my GitHub profile](https://github.com/caseclose)

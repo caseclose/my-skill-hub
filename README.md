@@ -1,6 +1,6 @@
 # My Skill Hub
 
-[English](README_en.md) · [GitHub 主页](https://github.com/caseclose)
+[English](README_en.md)
 
 我个人制作的开源 Agent Skills 合集，涵盖浏览器与 macOS 自动化、本地数据看板和 GPU 工具。
 
@@ -39,5 +39,3 @@
 ## 关于这个 Hub
 
 本仓库收录各 skill 的介绍和原仓库入口，具体实现与发布版本在各自的公开仓库维护。新增 skill 时，在此添加简介和公开仓库入口即可。
-
-[返回我的 GitHub 主页](https://github.com/caseclose)
