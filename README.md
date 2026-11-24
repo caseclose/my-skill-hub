@@ -2,11 +2,19 @@
 
 [English](README_en.md)
 
-我个人制作的开源 Agent Skills 合集，涵盖浏览器与 macOS 自动化、本地数据看板和 GPU 工具。
+我个人制作的开源 Agent Skills 合集，涵盖浏览器与 macOS 自动化、本地数据看板、GPU 工具和组会汇报准备。
 
 选择需要的 skill，前往对应公开仓库查看说明、下载和安装。各 skill 的代码、依赖、版本和发布包均由原仓库维护。
 
 ## Skills
+
+### 🗂️ [Explain Your Work](https://github.com/caseclose/explain-your-work)
+
+把实验日志、评测代码和具体案例整理成一页组会底稿，每个关键数字都附上出处。开会前可以让 Agent 扮演同事，一次追问一题，比如“导出了多少样本，训练实际读了多少？”
+
+- **用法示例**　`eyw，给这次实验出一页组会底稿。` 或 `eyw，扮演同事追问我。`
+- **适用环境**　Codex、Claude Code 等支持 Agent Skills 的客户端。普通聊天也可使用[独立提示词](https://github.com/caseclose/explain-your-work/blob/main/PROMPT.md)。
+- **入口**　[在线体验组会追问](https://caseclose.github.io/explain-your-work/zh.html) · [中文安装说明](https://github.com/caseclose/explain-your-work/blob/main/README.zh-CN.md#快速开始) · [SKILL.md](https://github.com/caseclose/explain-your-work/blob/main/skills/explain-your-work/SKILL.md)
 
 ### 🖥️ [Computer Use Skill](https://github.com/caseclose/computer-use-skill)
 

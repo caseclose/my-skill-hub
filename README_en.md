@@ -2,11 +2,19 @@
 
 [简体中文](README.md)
 
-A collection of open-source agent skills I created, covering browser and macOS automation, local data dashboards, and GPU utilities.
+A collection of open-source agent skills I created, covering browser and macOS automation, local data dashboards, GPU utilities, and meeting preparation.
 
 Choose a skill and visit its public repository for documentation, downloads, and installation. Each source repository maintains its own code, dependencies, versions, and release packages.
 
 ## Skills
+
+### 🗂️ [Explain Your Work](https://github.com/caseclose/explain-your-work)
+
+Turn run logs, scoring code, and examples into a one-page meeting brief with a source for each key number. Rehearse one follow-up at a time, starting with questions like “How many examples did we export, and how many did the trainer actually read?”
+
+- **Try it** `eyw, make a one-page brief for this run.` or `eyw, quiz me on this run.`
+- **Environment** Codex, Claude Code, and other Agent Skills clients. For a regular chat, use the [standalone prompt](https://github.com/caseclose/explain-your-work/blob/main/PROMPT.md).
+- **Links** [Try a rehearsal question](https://caseclose.github.io/explain-your-work/) · [Installation guide](https://github.com/caseclose/explain-your-work#quick-start) · [SKILL.md](https://github.com/caseclose/explain-your-work/blob/main/skills/explain-your-work/SKILL.md)
 
 ### 🖥️ [Computer Use Skill](https://github.com/caseclose/computer-use-skill)
 
