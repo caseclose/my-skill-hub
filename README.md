@@ -2,7 +2,7 @@
 
 [English](README_en.md)
 
-我个人制作的开源 Agent Skills 合集，涵盖浏览器与 macOS 自动化、本地数据看板、GPU 工具和组会汇报准备。
+我个人制作的开源 Agent Skills 合集，涵盖浏览器与 macOS 自动化、本地数据看板、GPU 工具、组会汇报准备与中文汇报排版。
 
 选择需要的 skill，前往对应公开仓库查看说明、下载和安装。各 skill 的代码、依赖、版本和发布包均由原仓库维护。
 
@@ -15,6 +15,14 @@
 - **用法示例**　`eyw，给这次实验出一页组会底稿。` 或 `eyw，扮演同事追问我。`
 - **适用环境**　Codex、Claude Code 等支持 Agent Skills 的客户端。普通聊天也可使用[独立提示词](https://github.com/caseclose/explain-your-work/blob/main/PROMPT.md)。
 - **入口**　[在线体验组会追问](https://caseclose.github.io/explain-your-work/zh.html) · [中文安装说明](https://github.com/caseclose/explain-your-work/blob/main/README.zh-CN.md#快速开始) · [SKILL.md](https://github.com/caseclose/explain-your-work/blob/main/skills/explain-your-work/SKILL.md)
+
+### ✍️ [Human Format](https://github.com/caseclose/human-format)
+
+面向中文周报、月报与技术汇报的去AI味与重构技能：清除汉字与英文数字间的多余空格、`**小标题**：`套娃和空话，把内部类名与生僻简称翻译为通用工程表达，按需探活并挂载在线看板链接；配套零依赖校验脚本`scripts/check_spacing.py`。
+
+- **用法示例**　`用 human-format 润色这段周报。` 或 `python3 scripts/check_spacing.py --fix report.md`
+- **适用环境**　Cursor、Claude Code、Codex 等支持 `SKILL.md` 的客户端；脚本仅依赖 Python 标准库。
+- **入口**　[在线检测与试用](https://caseclose.github.io/human-format/) · [原仓库与安装说明](https://github.com/caseclose/human-format#readme) · [SKILL.md](https://github.com/caseclose/human-format/blob/main/SKILL.md)
 
 ### 🖥️ [Computer Use Skill](https://github.com/caseclose/computer-use-skill)
 

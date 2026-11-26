@@ -2,7 +2,7 @@
 
 [简体中文](README.md)
 
-A collection of open-source agent skills I created, covering browser and macOS automation, local data dashboards, GPU utilities, and meeting preparation.
+A collection of open-source agent skills I created, covering browser and macOS automation, local data dashboards, GPU utilities, meeting preparation, and Chinese technical report formatting.
 
 Choose a skill and visit its public repository for documentation, downloads, and installation. Each source repository maintains its own code, dependencies, versions, and release packages.
 
@@ -15,6 +15,14 @@ Turn run logs, scoring code, and examples into a one-page meeting brief with a s
 - **Try it** `eyw, make a one-page brief for this run.` or `eyw, quiz me on this run.`
 - **Environment** Codex, Claude Code, and other Agent Skills clients. For a regular chat, use the [standalone prompt](https://github.com/caseclose/explain-your-work/blob/main/PROMPT.md).
 - **Links** [Try a rehearsal question](https://caseclose.github.io/explain-your-work/) · [Installation guide](https://github.com/caseclose/explain-your-work#quick-start) · [SKILL.md](https://github.com/caseclose/explain-your-work/blob/main/skills/explain-your-work/SKILL.md)
+
+### ✍️ [Human Format](https://github.com/caseclose/human-format)
+
+Polish and restructure Chinese weekly reports, monthly syncs, and technical updates: removes Han-ASCII spacing, bold-prefix list templates, and empty filler, translates obscure internal jargon into clear engineering language, and verifies/attaches live dashboard links. Includes a zero-dependency `scripts/check_spacing.py` checker and fixer.
+
+- **Try it** `Polish this weekly report with human-format.` or `python3 scripts/check_spacing.py --fix report.md`
+- **Environment** Cursor, Claude Code, Codex, and other `SKILL.md`-compatible clients; Python standard library only for CLI scripts.
+- **Links** [Try the live checker](https://caseclose.github.io/human-format/) · [Source & installation](https://github.com/caseclose/human-format#readme) · [SKILL.md](https://github.com/caseclose/human-format/blob/main/SKILL.md)
 
 ### 🖥️ [Computer Use Skill](https://github.com/caseclose/computer-use-skill)
 
